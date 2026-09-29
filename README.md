@@ -6,7 +6,11 @@ For a fuller description of the project, see the [project overview](https://ilal
 
 ## Availability
 
-No motion-capture data, derived outputs, or analysis code are shared at this stage. The code is awaiting approval for public release.
+The main analysis script is included as a workflow reference. Motion-capture data, derived outputs, and helper-function implementations are not included in this repository. Consequently, this is not a standalone executable release.
+
+## Included code
+
+- `src/gait_kinematics_jcs_analysis.m` — the main workflow, organized into data loading, static calibration, dynamic registration, joint-angle analysis, gait-cycle normalization, and angular-velocity analysis.
 
 ## Workflow functions
 
