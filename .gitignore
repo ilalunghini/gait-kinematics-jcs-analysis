@@ -1,0 +1,14 @@
+# Operating-system files
+.DS_Store
+
+# Motion-capture data and derived outputs
+data/
+outputs/
+*.c3d
+*.trc
+*.mocap
+*.csv
+*.tsv
+*.mat
+*.xlsx
+*.pdf
