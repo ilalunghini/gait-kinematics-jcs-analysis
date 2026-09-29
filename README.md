@@ -6,4 +6,17 @@ For a fuller description of the project, see the [project overview](https://ilal
 
 ## Availability
 
-No motion-capture data, derived outputs, or analysis code are shared at this stage. The materials are being reviewed before deciding which parts can be released in a clean, reproducible form.
+No motion-capture data, derived outputs, or analysis code are shared at this stage. The code is awaiting approval for public release.
+
+## Workflow functions
+
+The original workflow uses the following helper functions. They are described here for methodological transparency but are not included in this repository.
+
+| Function | Purpose |
+| --- | --- |
+| `computeRotationMatrix` | Estimates the best-fitting segment rotation at each frame using SVD. |
+| `coordChange` | Expresses 3D marker coordinates in a different reference frame. |
+| `CrossProduct` | Builds frame-wise cross-covariance matrices for rigid-body registration. |
+| `Tinv` | Computes the inverse of a rigid homogeneous transformation. |
+| `eventsnormalize` | Resamples gait-cycle signals to a common 0–100% time scale. |
+| `plotCS` | Draws 3D coordinate systems for visual inspection. |
