@@ -4,6 +4,7 @@
 # Motion-capture data and derived outputs
 data/
 outputs/
+draft/
 *.c3d
 *.trc
 *.mocap
