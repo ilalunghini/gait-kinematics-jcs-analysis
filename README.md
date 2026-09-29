@@ -6,7 +6,7 @@ For a fuller description of the project, see the [project overview](https://ilal
 
 ## Availability
 
-The main analysis script is included as a workflow reference. Motion-capture data, derived outputs, and helper-function implementations are not included in this repository. Consequently, this is not a standalone executable release.
+The main analysis script is included as a workflow reference. Motion-capture data, derived outputs, and helper-function implementations are not yet included in this repository.
 
 ## Included code
 
